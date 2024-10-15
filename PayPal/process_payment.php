@@ -27,8 +27,7 @@ $amount = $data['amount'];
 $payerName = $data['payerName'];
 
 // Vérifiez le paiement avec PayPal
-$clientID = 'AWHPrjHXfMiH7MjAzXuw4F5cihkfVhPp6DaX7Kfr4WM4jgJe4qGTy4EXO1j-tjhpNv6K7ZBlqrUvc127';
-$clientSecret = 'EHioYJxSEeaUCQnPJhNvQkbR3s-dBQ48VoJzQnZAj2z5k-9OffOq7114cZiPTM_AII_qP90YXeOmVH7R';
+$
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "https://api-m.sandbox.paypal.com/v2/checkout/orders/$orderID");
