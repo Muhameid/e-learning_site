@@ -1,0 +1,154 @@
+body {
+    background-color: #f9f9fa;
+}
+
+.padding {
+    padding: 3rem !important;
+}
+
+.user-card-full {
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.m-r-0 {
+    margin-right: 0px;
+}
+
+.m-l-0 {
+    margin-left: 0px;
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px;
+    background: linear-gradient(to right, #ee5a6f, #f29263);
+    padding: 20px 0;
+}
+
+.card-block {
+    padding: 1.25rem;
+    padding-right: 50px;
+    margin-right: 80px;
+}
+
+.m-b-25 {
+    margin-bottom: 25px;
+}
+
+.img-radius {
+    border-radius: 5px;
+}
+.sauvegarder{
+   
+    background: linear-gradient(to right, #ede9eb, #ebe6e6);
+
+}
+.sauvegarder:hover  {  background: linear-gradient(to right, #ee5a6f, #f29263); cursor:pointer;}
+
+h6 {
+    font-size: 14px;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+@media only screen and (min-width: 1400px){
+    p {
+        font-size: 14px;
+    }
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+
+
+.f-w-600 {
+    font-weight: 600;
+    
+}
+
+.m-t-40 {
+    margin-top: 20px;
+}
+
+
+.user-card-full .social-link li {
+    display: inline-block;
+}
+
+.user-card-full .social-link li a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Custom styles for the login section */
+.login-section {
+    padding: 1.25rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+}
+
+.login-section h4 {
+    margin-bottom: 20px;
+}
+
+.login-section input[type="text"], .login-section input[type="email"], .login-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-section button {
+    background: #ee5a6f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-section button:hover {
+    background: #f29263;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-half {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-third {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+    margin-left: 40px;
+}
+
+

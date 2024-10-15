@@ -1,0 +1,131 @@
+.custom-column {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-column .row-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.custom-column .row-green {
+    color: green !important;
+    width: 100%;
+    text-align: center;
+}
+
+.custom-column .row-item :hover {
+    color: black !important;
+    width: 100%;
+    text-align: center;
+}
+
+.service-item h1 {
+    text-align: center;
+    width: 100%;
+}
+.service-item span {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* Style pour l'accordéon */
+.accordion-item {
+    background-color: #f8f9fa; /* Couleur de fond des éléments de l'accordéon */
+    border: 1px solid #dee2e6; /* Bordure des éléments de l'accordéon */
+    border-radius: 5px; /* Rayon des coins des éléments de l'accordéon */
+    margin-bottom: 10px; /* Marge entre les éléments de l'accordéon */
+}
+
+.accordion-button {
+    background-color: #ffffff; /* Couleur de fond du bouton de l'accordéon */
+    color: #000000; /* Couleur du texte du bouton de l'accordéon */
+    border: none; /* Supprimer la bordure du bouton de l'accordéon */
+    border-radius: 0; /* Supprimer le rayon des coins du bouton de l'accordéon */
+    padding: 10px 15px; /* Espacement à l'intérieur du bouton de l'accordéon */
+    width: 100%; /* Largeur du bouton de l'accordéon */
+    text-align: left; /* Alignement du texte à gauche à l'intérieur du bouton de l'accordéon */
+}
+
+.accordion-button:focus {
+    box-shadow: none; /* Supprimer l'ombre du bouton de l'accordéon lorsqu'il est en focus */
+}
+
+/* Style pour le contenu de l'accordéon */
+.accordion-body {
+    background-color: #ffffff; /* Couleur de fond du contenu de l'accordéon */
+    color: #000000; /* Couleur du texte du contenu de l'accordéon */
+    border: 1px solid #dee2e6; /* Bordure du contenu de l'accordéon */
+    border-top: none; /* Supprimer la bordure supérieure du contenu de l'accordéon */
+    border-radius: 0 0 5px 5px; /* Rayon des coins inférieurs du contenu de l'accordéon */
+    padding: 15px; /* Espacement à l'intérieur du contenu de l'accordéon */
+}
+
+/* Flèche pour indiquer l'état ouvert ou fermé */
+.accordion-button::after {
+    content: '\002B'; /* Ajouter un signe plus (+) par défaut */
+    font-size: 1.5rem; /* Taille de la police */
+    float: right; /* Aligner la flèche à droite */
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: '\2212'; /* Changer le signe en moins (-) lorsque l'accordéon est ouvert */
+}
+
+  .hfe-nav-menu__layout-horizontal .hfe-menu-item:hover {
+    background-color: black;
+    color: #8a2be2;
+}
+
+.hfe-nav-menu__layout-horizontal .hfe-sub-menu-item {
+    color: #1e1e1e;
+    border-bottom: 1px solid #e9e8e8;
+    background-color: white;
+}
+
+/* Style pour l'élément principal */
+#ko { 
+    color: #1e1e1e;
+    padding: 20px;
+    border-bottom-left-radius: 11%;
+    border-bottom-right-radius: 11%;
+    width: 130%;
+}
+
+/* Rendre le menu principal fixe */
+nav {
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; /* Pour s'assurer que le menu soit visible */
+}
+
+/* Style pour les sous-menus */
+.sub-menu {
+    display: none; /* Cacher les sous-menus par défaut */
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1001;
+}
+
+.hfe-nav-menu__layout-horizontal .hfe-sub-menu-item:hover {
+    background-color: white;
+    color: #8a2be2;
+    
+    transition: background-color 2.3s;
+}
+
